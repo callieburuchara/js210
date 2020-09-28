@@ -1,4 +1,4 @@
-const rlSync = require('readline-sync')
+const rlSync = require('readline-sync');
 
 console.log('==> Enter the first number:');
 let firstNum = Number(rlSync.prompt());
