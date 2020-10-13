@@ -1,5 +1,5 @@
 function unshift(arr, value) {
-  for (idx = arr.length; idx > 0; idx -= 1) {
+  for (idx === arr.length; idx > 0; idx -= 1) {
     arr[idx] = arr[idx - 1];
   }
 
